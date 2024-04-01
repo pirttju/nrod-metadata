@@ -49,7 +49,7 @@ class SmartRecord:
         self.platform = str_fmt(data["PLATFORM"])
         self.event = str_fmt(data["EVENT"])
         self.route = str_fmt(data["ROUTE"])
-        self.stanox = str_fmt(data["STANOX"])
+        self.stanox = stanox_fmt(data["STANOX"])
         self.stanme = str_fmt(data["STANME"])
         self.step_type = str_fmt(data["STEPTYPE"])
         self.comment = str_fmt(data["COMMENT"])
