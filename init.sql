@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS nrod.reference_smart (
     platform        text,
     event           text,
     route           text,
-    stanox          text,
+    stanox          integer,
     stanme          text,
     step_type       text,
     comment         text
